@@ -52,19 +52,19 @@ function nextSequence() {
 function playSound(name) {
 
     if (name === "green") {
-        var green = new Audio(".../sounds/green.mp3")
+        var green = new Audio("../sounds/green.mp3")
         green.play();
     }
     if (name === "red") {
-        var red = new Audio(".../sounds/red.mp3")
+        var red = new Audio("../sounds/red.mp3")
         red.play();
     }
     if (name === "yellow") {
-        var yellow = new Audio(".../sounds/yellow.mp3")
+        var yellow = new Audio("../sounds/yellow.mp3")
         yellow.play();
     }
     if (name === "blue") {
-        var blue = new Audio(".../sounds/blue.mp3")
+        var blue = new Audio("../sounds/blue.mp3")
         blue.play();
     }
 }
@@ -140,7 +140,7 @@ function checkAnswer(currentLevel) {
 
     } else {
 
-        var wrong = new Audio(".../sounds/wrong.mp3")
+        var wrong = new Audio("../sounds/wrong.mp3")
         wrong.play();
 
         document.querySelector("a").innerHTML = "reset"
